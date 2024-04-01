@@ -1,0 +1,22 @@
+k=7,s=1
+coin1:
+    coin_detector1 = CoinDetectionSystem(origin_image,gray_image,7,1,12,4,4,50)
+    coin_detector1 = CoinDetectionSystem(origin_image,gray_image,7,1,50,25,4,50,True)
+    coin_detector1 = CoinDetectionSystem(origin_image,gray_image,7,1,30,10,4,60,True,True)
+
+coin2:
+    coin_detector2 = CoinDetectionSystem(origin_image,gray_image,7,1,12,4,4,70)
+    coin_detector2 = CoinDetectionSystem(origin_image,gray_image,7,1,30,10,4,80,True)
+    coin_detector2 = CoinDetectionSystem(origin_image,gray_image,7,1,80,40,4,100,True,True)
+
+
+k=3,s=1
+coin1:
+    coin_detector1 = CoinDetectionSystem(origin_image,gray_image,3,1,12,4,4,40)
+    coin_detector1 = CoinDetectionSystem(origin_image,gray_image,3,1,30,15,4,60,True)
+    coin_detector1 = CoinDetectionSystem(origin_image,gray_image,3,1,40,20,4,60,True,True)
+
+coin2:
+    coin_detector2 = CoinDetectionSystem(origin_image,gray_image,3,1,12,4,4,70)
+    coin_detector2 = CoinDetectionSystem(origin_image,gray_image,3,1,45,25,4,90,True)
+    coin_detector2 = CoinDetectionSystem(origin_image,gray_image,3,1,80,40,4,120,True,True)
